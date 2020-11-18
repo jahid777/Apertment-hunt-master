@@ -1,0 +1,88 @@
+.apartment__banner {
+  /* background-image: url("../../Images/Rectangle\ 394.png"); */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url("../../Images/Rectangle\ 394.png") center center;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.apartment__banner > h1 {
+  color: #fff;
+  font-size: 4rem;
+  text-shadow: #000;
+}
+.apartmentDetails__container {
+  display: flex;
+  align-items: flex-start;
+  width: 90%;
+  margin: auto;
+}
+.apartmentDetails__info {
+  flex: 0.7;
+}
+.apartmentDetails__form {
+  flex: 0.3;
+}
+
+.apartmentDetails__info > img {
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 50px;
+}
+.apartmentDetails__infoImg {
+  width: 100% !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.apartmentDetails__infoImg > img {
+  width: 22%;
+}
+
+.apartmentDetails__infoTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.apartmentDetails__infoHeader > p,
+.apartmentDetails__infoPrice > p,
+.apartmentDetails__infoProperty > p {
+  font-size: 12px;
+  color: rgb(121, 121, 121);
+}
+.apartmentDetails__infoHeader,
+.apartmentDetails__infoPrice,
+.apartmentDetails__infoProperty {
+  margin-bottom: 30px;
+}
+.apartmentDetails__infoProperty {
+  width: 60%;
+}
+
+.apartmentDetails__formbox {
+  margin-left: 20px;
+  width: 80%;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+}
+
+.apartmentDetails__formbox > input {
+  margin: 5px;
+  border: none;
+  outline-width: 0px;
+  padding: 5px;
+}
+
+.apartmentDetails__formbox > button {
+  margin-top: 15px;
+  background-color: #275a53;
+  color: #fff;
+  border: none;
+  padding: 10px 0px;
+  width: 100%;
+}
